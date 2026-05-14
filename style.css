@@ -1,0 +1,81 @@
+body {
+  font-family: fantasy;
+  margin: 0;
+  background-color: #c8fff7;
+}
+
+header {
+  background-color: #43b9c3;
+  color: #e1ce07;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: #e1ce07;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+  .octopus-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .octopus-card {
+    width: 300px;
+    text-align: center;
+    background-color: #00b6b6;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .octopus-card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+h1{
+  color: #048074;
+  text-align: center;
+}
+
+h2 {
+  color: #02808a;
+}
+
+p {
+  color: #005e55;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h3{ 
+  color: #02808a;
+}
+
+ul { 
+  color:#005e55;
+}
+
+footer {
+  background-color: #00b69f;
+  color: #e1ce07;
+  text-align: center;
+  padding: 10px;
+}
